@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+/* Navbar */
+
+.navbar-css{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Banner */
+
+#bannerIphone {
+    position: relative;
+}
+
+#bannerIphone img{
+    width: 100%;
+}
+
+#bannerIphone h1{
+    position: absolute;
+    top: 60%;
+    color: white;
+    padding: 1rem;
+    width: 30%;
+}
+
+/* Seccion Productos */
+
+.title{
+    margin: 2rem;
+}
+
+.wrapping{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+#shopContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "products, products, products, products"
+    "products, products, products, products";
+    margin: 0 auto;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 14rem;
+    height: 22rem;
+    margin: 1rem 1rem;
+    border: 2px rgba(102, 102, 102, 0.397) solid;
+    border-radius: 5px;
+    background-color: white;    
+}
+
+.products-img{
+    width: 100%;
+    height: auto;
+}
+
+.products-title{
+    padding: 0 .5rem;
+}
+
+.products-price{
+    padding: 0 .5rem;
+}
+
+.btn{
+    border: 1px white solid;
+    width: 50%;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: rgb(33, 33, 128);
+}
+
+.btn:hover{
+    border: 1px rgb(33, 33, 128) solid;
+    background-color: white;
+    color: black;
+}
+
+.cartContent{
+    width: 24rem;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-title{
+    margin: 1rem;
+}
+
+.closeBtn{
+    margin: 1rem;
+    color: rgb(104, 104, 104);
+}
+
+.closeBtn:hover{
+    color: rgb(65, 65, 65);
+}
+
+.closeBtn:focus  ~ .cartContent{
+    display: none;
+}
+
+.cart-quantity{
+    margin: 0 1rem;
+}
+
+.cartProducts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-product{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1rem;
+}
+
+.cart-price{
+    margin: 0 1rem;
+}
+
+
+.cart-img{
+    width: 4rem;
+}
+
+.delete-btn{
+    margin: 0 1rem;
+    color: rgb(104, 104, 104);
+}
+
+.delete-btn:hover{
+    color: rgb(65, 65, 65);
+}
+
+.closeCart{
+    display: none;
+}
+
+.make-a-purchase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 1rem;
+}
+
+.make-a-purchase .btn{
+    width: 7rem;
+    margin: 0;
+}
+
+.make-a-purchase p {
+    margin: 0;
+}

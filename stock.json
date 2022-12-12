@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 8",
+    "price": 240,
+    "stock": 3,
+    "picture": "./img/3770003825319-photosite-20210217-173118-0.webp"
+  },
+  {
+    "id": 2,
+    "name": "Iphone 8 Plus",
+    "price": 300,
+    "stock": 4,
+    "picture": "./img/iphone-8plus-zwart-multi_600x600_BGresize_16777215-tj.png"
+  },
+  {
+    "id": 3,
+    "name": "Iphone XS",
+    "price": 350,
+    "stock": 2,
+    "picture": "./img/iphone-xsmax-zilver-multiapple_600x600_BGresize_16777215-tj.png"
+  },
+  {
+    "id": 4,
+    "name": "Iphone 11",
+    "price": 425,
+    "stock": 6,
+    "picture": "./img/593ebd1f-15f4-4b60-a3ce-89d3c1161ccd.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Iphone 12",
+    "price": 560,
+    "stock": 6,
+    "picture": "./img/apple-iphone-12--64gb-mjnm3gha-purple----mjnm3gha.jpg"
+  }
+]
